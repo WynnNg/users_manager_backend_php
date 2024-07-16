@@ -40,18 +40,10 @@ if (!defined('_CODE')) {
             </form>
 
             <div class="text-end">
-                <a href="?modules=auth&action=logout" class="d-block link-dark text-decoration-none " aria-expanded="false">
+                <a href="?modules=auth&action=logout" class="btn btn-outline-secondary">
                     <i class="fa-regular fa-square-caret-up"></i>
                     Đăng xuất
                 </a>
-                <!-- <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1" style="">
-                    <li><a class="dropdown-item" href="#">Settings</a></li>
-                    <li><a class="dropdown-item" href="#">Profile</a></li>
-                    <li>
-                        <hr class="dropdown-divider">
-                    </li>
-                    <li><a class="dropdown-item" href="?modules=auth&action=logout">Đăng xuất</a></li>
-                </ul> -->
             </div>
         </div>
     </div>
