@@ -8,7 +8,7 @@ $data = [
 ];
 
 if (isLogin()) {
-    redirect('?modules=home&action=dashboard');
+    redirect('?modules=users&action=list');
 }
 
 if (isPost()) {

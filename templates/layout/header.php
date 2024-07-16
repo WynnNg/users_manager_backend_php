@@ -31,28 +31,27 @@ if (!defined('_CODE')) {
             </a>
 
             <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                <li><a href="#" class="nav-link px-2 link-secondary">Overview</a></li>
-                <li><a href="#" class="nav-link px-2 link-dark">Inventory</a></li>
-                <li><a href="#" class="nav-link px-2 link-dark">Customers</a></li>
-                <li><a href="#" class="nav-link px-2 link-dark">Products</a></li>
+                <li><a href="?modules=users&action=list" class="nav-link px-2 link-secondary">Overview</a></li>
+
             </ul>
 
             <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
                 <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
             </form>
 
-            <div class="dropdown text-end">
-                <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
-                    <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle">
+            <div class="text-end">
+                <a href="?modules=auth&action=logout" class="d-block link-dark text-decoration-none " aria-expanded="false">
+                    <i class="fa-regular fa-square-caret-up"></i>
+                    Đăng xuất
                 </a>
-                <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1" style="">
+                <!-- <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1" style="">
                     <li><a class="dropdown-item" href="#">Settings</a></li>
                     <li><a class="dropdown-item" href="#">Profile</a></li>
                     <li>
                         <hr class="dropdown-divider">
                     </li>
                     <li><a class="dropdown-item" href="?modules=auth&action=logout">Đăng xuất</a></li>
-                </ul>
+                </ul> -->
             </div>
         </div>
     </div>

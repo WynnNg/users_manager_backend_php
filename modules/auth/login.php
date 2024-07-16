@@ -8,7 +8,7 @@ $data = [
 ];
 
 if (isLogin()) {
-    redirect('?modules=home&action=dashboard');
+    redirect('?modules=users&action=list');
 }
 
 if (isPost()) {
@@ -41,7 +41,7 @@ if (isPost()) {
 
                     //Lưu token vào session
                     setSession('loginToken', $loginToken);
-                    redirect('?modules=home&action=dashboard');
+                    redirect('?modules=users&action=list');
                 }
             } else {
                 setFlashData('msg', 'Email hoặc mật khẩu không chính xác');
